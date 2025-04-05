@@ -11,7 +11,7 @@ import Wallets from './components/Wallets';
 import Analytics from './components/Analytics';
 import Budgets from './components/Budgets';
 
-// Create a wrapper component to use hooks inside Router
+
 const AppContent = () => {
   const location = useLocation();
   const navItems = [
